@@ -39,7 +39,5 @@ jobs:
           go version
           gcc --version
           bash ./retest.sh
-          mkdir install
-          cd libcap
-          make all test distclean
+
           
