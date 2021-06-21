@@ -38,7 +38,7 @@ jobs:
           id
           go version
           gcc --version
-          git clone git://git.kernel.org/pub/scm/libs/libcap/libcap.git
+          bash ./retest.sh
           mkdir install
           cd libcap
           make all test distclean
