@@ -9,7 +9,7 @@ if [[ -z "${HASH}" ]]; then
   echo "unable to determine hash value of clone"
   exit 1
 fi
-if [[ "${HASH}" = "$(cat last-hash)" ]]; then
+if [[ "${HASH}" = "$(cat last-hash 2>/dev/null)" ]]; then
   echo "no change since last clone request"
   exit 0
 fi
