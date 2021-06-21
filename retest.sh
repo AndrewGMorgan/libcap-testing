@@ -1,6 +1,7 @@
 #!/bin/bash
 
 HASH="$(git ls-remote --head git://git.kernel.org/pub/scm/libs/libcap/libcap.git|awk '{print $1}')"
+echo "should build and test clone: ${HASH}"
 if [[ -z "${HASH}" ]]; then
   echo "unable to determine hash value of upstrem"
   exit 1
@@ -13,8 +14,9 @@ fi
 mkdir built
 FAKEROOT="$(pwd)/built"
 mkdir clone
-git clone git://git.kernel.org/pub/scm/libs/libcap/libcap.git
 cd clone || exit 1
+git clone git://git.kernel.org/pub/scm/libs/libcap/libcap.git
+cd libcap || exit 1
 # redefine HASH from actual copy - avoid race condition.
 HASH=$(git rev-parse HEAD)
 if [[ "${HASH}" = "$(cat last-hash 2>/dev/null)" ]]; then
