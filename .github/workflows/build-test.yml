@@ -31,13 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: make test
-        run: |
-          echo running tests with the following details:
-          uname -a
-          pwd
-          id
-          go version
-          gcc --version
-          bash ./retest.sh
-
-          
+        run: bash ./retest.sh
