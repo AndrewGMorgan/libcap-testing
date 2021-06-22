@@ -7,6 +7,7 @@ gcc --version
 go version
 id
 pwd
+ls -l
 
 URL=git://git.kernel.org/pub/scm/libs/libcap/libcap.git
 
