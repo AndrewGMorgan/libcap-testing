@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo force a failure
+exit 1
+
 HASH="$(git ls-remote --head git://git.kernel.org/pub/scm/libs/libcap/libcap.git|awk '{print $1}')"
 echo "should build and test clone: ${HASH}"
 if [[ -z "${HASH}" ]]; then
