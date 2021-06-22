@@ -37,7 +37,11 @@ cd ../..
 
 echo "should build and test clone ${HASH}"
 echo "${HASH}" > last-hash
-ls -l
+git status
+git add last-hash
+git commit -m "upstream libcap updated just before $(date)"
+git status
+git push || exit 1
 
 cd clone/libcap
 make FAKEROOT="${FAKEROOT}" all test install distclean || exit 1
