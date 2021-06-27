@@ -1,7 +1,20 @@
 # libcap-testing
 
-This is a site to explore automated actions associated with libcap
-upstream repository status.
+This repository is essentially a continuous build tester for `libcap`
+using GitHub actions.
+
+The upstream git repository for libcap is:
+
+-  https://git.kernel.org/pub/scm/libs/libcap/libcap.git/
+
+More information, including how to review and/or report bugs against
+libcap, can be found here:
+
+-  https://sites.google.com/site/fullycapable/
+
+Cheers
+
+Andrew
 
 ## Current build status: PASS
 -  Sat Jun 19 13:20:41 2021 -0700 [1a5a67b](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=1a5a67b48cbcb83a968f973b2207c1d4b833a6dd): PASS
