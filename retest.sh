@@ -56,7 +56,7 @@ for h in $(git log --reverse HEAD..."${LASTHASH}" --pretty=format:"%H"); do
     git reset --hard "${h}"
     rm -rf "${FAKEROOT}/*"
     STATUS="PASS"
-    make FAKEROOT="${FAKEROOT}" clean all test install || STATUS="FAIL"
+    make FAKEROOT="${FAKEROOT}" clean all test sudotest install || STATUS="FAIL"
     (git log -1 --pretty=format:"-  %cd [%h](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=%H): ${STATUS}" ; echo) >> ../../build.md
 done
 
