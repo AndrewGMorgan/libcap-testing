@@ -72,6 +72,6 @@ git status
 git push || exit 1
 
 echo "Most recent build (${h}) was a ${STATUS}"
-if [[ "${STATUS}}" = "FAIL" ]]; then
+if [[ "${STATUS}" = "FAIL" ]]; then
     exit 1
 fi
