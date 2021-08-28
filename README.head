@@ -12,6 +12,12 @@ libcap, can be found here:
 
 -  https://sites.google.com/site/fullycapable/
 
+For future reference, the build server runs in an Ubuntu docker image,
+so here is a link to some build config info (handy for debugging
+unexpected failures):
+
+-  https://wiki.ubuntu.com/ToolChain/CompilerFlags
+
 Cheers
 
 Andrew
