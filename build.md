@@ -139,3 +139,4 @@ of libcap builds so far.
 -  Fri Oct 22 16:32:51 2021 -0700 [687dc0b](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=687dc0b8fea42dd58a1b6ca8f50b28fe049bb2a7): PASS
 -  Fri Oct 22 20:51:02 2021 -0700 [e4725c1](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=e4725c1a9e1bc7b72e56bd8251ae4058d15a5e28): PASS
 -  Fri Oct 22 21:29:14 2021 -0700 [5306fa2](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=5306fa23ff92832be949b28d86eec39b54fbee26): PASS
+-  Sat Nov 6 08:02:20 2021 -0700 [8e1e967](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=8e1e967bc8d99a3233d51f67f6b88620cdff78dc): PASS
