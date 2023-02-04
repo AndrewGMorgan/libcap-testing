@@ -49,6 +49,10 @@ echo "${HASH}" > last-hash
 git config user.email "morgan@kernel.org"
 git config user.name "Andrew's Robot"
 
+# Without this the tester has trouble executing things in the
+# build tree when the tested code changes UID. #1
+chmod go+x "${HOME}"
+
 cd clone/libcap
 git checkout -b rebuild 
 ls -l
