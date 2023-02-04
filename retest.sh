@@ -51,6 +51,12 @@ git config user.name "Andrew's Robot"
 
 cd clone/libcap
 git checkout -b rebuild 
+ls -l
+# We've had some permission issues, so validate we're good
+for y in $(pwd | sed 's@/@ @g'); do
+    z="${z}/${y}"
+    ls -ld "${z}"
+done
 
 for h in $(git log --reverse HEAD..."${LASTHASH}" --pretty=format:"%H"); do
     git reset --hard "${h}"
