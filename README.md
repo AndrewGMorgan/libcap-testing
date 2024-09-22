@@ -22,8 +22,6 @@ Cheers
 
 Andrew
 ## Current build status: PASS
--  Sun Feb 18 07:24:19 2024 -0800 [e79c7f0](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=e79c7f06e1713eaae11119de4d8abfb4c77c6428): PASS
--  Wed Apr 3 18:08:22 2024 -0700 [caab620](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=caab6200d2420616604c4851b2b3a3065f07b447): PASS
 -  Fri Apr 5 18:16:48 2024 -0700 [56ee609](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=56ee609f672487cdc15b0df6004764bf46552f06): PASS
 -  Fri Apr 5 19:00:59 2024 -0700 [13b9ee5](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=13b9ee57f9b3e45dd2d9691806df27a8dca78f06): PASS
 -  Sat May 18 21:43:17 2024 -0700 [8fe536b](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=8fe536b53f26b93849336713e50fd0d17272d200): PASS
@@ -32,3 +30,5 @@ Andrew
 -  Fri Aug 16 20:20:12 2024 -0700 [bbcfccd](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=bbcfccdcc4d4a8eb4669c5f3b0467b981a1b382e): PASS
 -  Sat Aug 17 08:50:55 2024 -0700 [651d99f](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=651d99fdf0b34d3381732fda43f959f1cb16c8c9): PASS
 -  Sat Aug 17 09:36:33 2024 -0700 [7d571d1](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=7d571d13363216556e2d97867172eb15790474b8): PASS
+-  Sun Sep 22 11:10:05 2024 -0700 [30892a5](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=30892a5d5bbfa9ecc638482db76047ad91040418): PASS
+-  Sun Sep 22 11:11:44 2024 -0700 [676971a](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=676971a20ac3c1f140bc3ed1e1b6f8de9e75609c): PASS
