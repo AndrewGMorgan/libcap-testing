@@ -22,7 +22,6 @@ Cheers
 
 Andrew
 ## Current build status: PASS
--  Wed Mar 19 20:17:01 2025 -0700 [91e3124](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=91e3124a29803dcc4c454d32c10c45689722b103): PASS
 -  Sat Mar 22 09:37:42 2025 -0700 [cedefd8](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=cedefd8e9382b87485397e5f5a5969ca661b8235): PASS
 -  Sat Mar 22 09:49:50 2025 -0700 [04b2856](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=04b285680bfb45117af685eabf1675917118bdb5): PASS
 -  Sun Mar 23 06:30:29 2025 -0700 [89b0e7a](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=89b0e7a69a07025874b94478efdc5d1280b1704c): PASS
@@ -32,3 +31,4 @@ Andrew
 -  Sun Apr 13 08:48:40 2025 -0700 [8ff33c7](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=8ff33c7ffd86a5fdc8e1cf3641e8c27db8a812a3): PASS
 -  Sun Apr 13 09:47:12 2025 -0700 [5f3e12c](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=5f3e12ca39c476b78160df6e2345a642a8e6f178): PASS
 -  Thu Apr 17 20:20:09 2025 -0700 [7a2eee5](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=7a2eee56607218d017af8d26c2c41dba83629708): PASS
+-  Sat Apr 19 08:00:23 2025 -0700 [6cdd8cd](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=6cdd8cd72ebcedd6b1b6c989a7e5722d5d87f35c): PASS
