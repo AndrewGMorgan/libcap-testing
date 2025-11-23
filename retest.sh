@@ -19,8 +19,8 @@ HASH="$(git ls-remote --head ${URL}|awk '{print $1}')"
 LASTHASH="$(cat last-hash 2>/dev/null)"
 echo "should build and test clone: ${HASH}"
 if [[ -z "${HASH}" ]]; then
-  echo "unable to determine hash value of upstrem"
-  exit 1
+  echo "unable to determine hash value of upstrem - will try later"
+  exit 0
 fi
 if [[ "${HASH}" = "${LASTHASH}" ]]; then
   echo "no change since last clone request"
@@ -54,7 +54,7 @@ git config user.name "Andrew's Robot"
 chmod go+x "${HOME}"
 
 cd clone/libcap
-git checkout -b rebuild 
+git checkout -b rebuild
 ls -l
 # We've had some permission issues, so validate we're good
 for y in $(pwd | sed 's@/@ @g'); do
